@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
+
 .vs
 bin
 CSharp_learning.csproj
