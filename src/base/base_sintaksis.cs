@@ -4,14 +4,14 @@
 //using Bogus;
 //using System.Drawing;
 
-//namespace ForAll
+//namespace Base
 //{
-//	class Simple_cod
-//	{
+//    class Simple_cod
+//    {
 //        static Random random = new Random();
 
 //        public static void Main(string[] args)
-//		{
+//        {
 //            //Faker faker = new Faker("uk");
 
 //            //String name = faker.Name.LastName(Bogus.DataSets.Name.Gender.Female);
@@ -259,31 +259,31 @@
 
 //            //Рекурсія
 
-//            //int[] arr = new int[5] {6, 100, 500, 2, 5 };
+//            int[] arr = new int[5] { 6, 100, 500, 2, 5 };
 
-//            //recursoinArrPrint(arr);
+//            recursoinArrPrint(arr);
 
-//            //Console.WriteLine(recursionSumArr(arr));
+//            Console.WriteLine(recursionSumArr(arr));
 
 
-//            //string str = "221";
+//            string str = "221";
 
-//            //Console.WriteLine(recursionSumOfEllNum(str));
+//            Console.WriteLine(recursionSumOfEllNum(str));
 
 
 
 //            //Nullable
-//            int? a = 4;
-//            float b = 2.999999f;
+//            //int? a = 4;
+//            //float b = 2.999999f;
 
-//            int res = (int)(a + b);
-//            Console.WriteLine(a + b);
+//            //int res = (int)(a + b);
+//            //Console.WriteLine(a + b);
 
-//            int? t = null;
+//            //int? t = null;
 
-//            var random = new Random();
+//            //var random = new Random();
 
-//            Console.WriteLine($"num a = {a} \t num b = {b}");
+//            //Console.WriteLine($"num a = {a} \t num b = {b}");
 
 
 
@@ -304,7 +304,7 @@
 
 //            if (str.Length <= FirstEll)
 //                return 0;
-            
+
 //            int res = Convert.ToInt32(str[FirstEll]) - 48;
 
 //            return res + recursionSumOfEllNum(str, ++FirstEll);
@@ -325,7 +325,7 @@
 
 //            if (arr.Length <= FirstEll)
 //                return 0;
-            
+
 
 //            int res = arr[FirstEll];
 
@@ -362,7 +362,7 @@
 //        }
 
 
-//        static int Sum(bool print = false ,params int[] arr)
+//        static int Sum(bool print = false, params int[] arr)
 //        {
 //            int sum = 0;
 
@@ -390,7 +390,7 @@
 //        /// </summary>
 //        /// <typeparam name="T"></typeparam>
 //        /// <param name="arr"></param>
-//        /// <param name="arrForCopy"></param>
+//        ///// <param name="arrForCopy"></param>
 //        static void copyArr<T>(ref T[] arr, ref T[] arrForCopy)
 //        {
 //            arrForCopy = new T[arr?.Length ?? 0];
@@ -401,11 +401,11 @@
 //            }
 //        }
 
-//        /// <summary>
-//        /// Міняє величину масиву
-//        /// </summary>
-//        /// <typeparam name="T"></typeparam>
-//        /// <param name="arr"></param>
+//        ///// <summary>
+//        ///// Міняє величину масиву
+//        ///// </summary>
+//        ///// <typeparam name="T"></typeparam>
+//        ///// <param name="arr"></param>
 //        static void Resize<T>(ref T[] arr)
 //        {
 //            int size = arr?.Length ?? 0;
@@ -416,7 +416,7 @@
 
 //            int newSize = size;
 //            int num, edit = 0;
-            
+
 
 //            Console.WriteLine("print 1 if you want to make array bigger");
 //            Console.WriteLine("print 2 if you want to make array smaller");
@@ -425,7 +425,7 @@
 
 //            switch (num)
 //            {
-//                case 1: 
+//                case 1:
 //                    Console.WriteLine("how many?");
 //                    edit = Convert.ToInt32(Console.ReadLine());
 
@@ -441,7 +441,7 @@
 //                        if (edit >= size)
 //                        {
 //                            Console.WriteLine("edit need to be smaller than size of array ");
-                            
+
 //                        }
 
 //                    } while (edit >= size);
@@ -481,11 +481,11 @@
 //        }
 
 //        static void arrayFilling(int[] arr)
-//		{
-//			for (int i = 0; i < arr.Length; i++)
-//			{
-//				arr[i] = random.Next(10);
-//			}
+//        {
+//            for (int i = 0; i < arr.Length; i++)
+//            {
+//                arr[i] = random.Next(10);
+//            }
 //        }
 
 //        static void arrayFilling(ref int[,] arr)

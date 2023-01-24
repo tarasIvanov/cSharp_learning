@@ -3,12 +3,14 @@
 //using System.Globalization;
 //using Bogus;
 
-//class Program
+//namespace name
 //{
-//    public static void Main(string[] args)
+//    class Program
 //    {
+//        public static void Main(string[] args)
+//        {
 
 
+//        }
 //    }
 //}
-
